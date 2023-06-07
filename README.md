@@ -10,11 +10,11 @@ Supplementary Data - https://drive.google.com/drive/folders/1DUU2hL4PAax-QpcpMiH
 
 
 ### Members
-    •	Etoroabasi Akpan - 		S4211614	
+    •	Etoroabasi Akpan - 		    S4211614	
     •	Enitan Sulaimon Ogungbemi -	S4219042
     •	Kingsley Ezeogwum - 		S4212037
-    •	Anyanacho Obed Johua - 	S4212171
-    •	Raaquib Qureshi - 	S4217002
+    •	Anyanacho Obed Johua -  	S4212171
+    •	Raaquib Qureshi - 	        S4217002
     
    
 
@@ -229,3 +229,9 @@ def evaluate_model(target_test, target_prediction):
     return [mse, mae, r2, adjusted_r2]
 
 ```
+
+
+## Conclusion
+
+We concluded that out of the over 60 initial features, only 14 were significant in predicting the overall rating of a care home
+From the extensive analysis performed in this project, we could conclude that Random Forest was the best Machine Learning model to perform predictions on the care home data set.
