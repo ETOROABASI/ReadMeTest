@@ -1,19 +1,22 @@
-# Group C: Python Assessment
+# Group H: Python Assessment
 
 
 ## Description
-In this data science project, our team of five students will work collaboratively to load and analyze a selected World University Ranking dataset . We will leverage the power of Python libraries such as pandas, numpy, seaborn, and matplotlib to accomplish our objectives.
+In this data science project, our team of five students will work collaboratively to load and analyze and perform machine learning a selected health care dataset. 
+We will leverage the power of Python libraries such as pandas, numpy, seaborn, geopandas, sklearn, scipy and matplotlib to accomplish our objectives.
 
-Data - https://github.com/Nosa-khare/python-assessment/tree/main/dataset
+Data - https://www.kaggle.com/datasets/thedevastator/home-health-care-agency-ratings
+Supplementary Data - https://drive.google.com/drive/folders/1DUU2hL4PAax-QpcpMiHJ-EOb6sRe-PbC?usp=sharing
 
 
 ### Members
-    Olaide oludare Wasiu | sS216546
-    Nosakhare Edokpayi | S4214240
-    Remsha Farooq | S4218275
-    Uchechukwu Osita Ikwu | S4216861
-    Yusuf Segun Ajibade | S4216782
-
+    •	Etoroabasi Akpan - 		S4211614	
+    •	Enitan Sulaimon Ogungbemi -	S4219042
+    •	Kingsley Ezeogwum - 		S4212037
+    •	Anyanacho Obed Johua - 	S4212171
+    •	Raaquib Qureshi - 	S4217002
+    
+   
 
 
 ## Table of Contents
@@ -56,25 +59,32 @@ Once Python is installed, you can proceed with setting up the project environmen
 ### Dependencies
 The following dependencies are required to run the project:
 
-matplotlib version: 3.5.2
-numpy version: 1.21.5
-pandas version: 1.4.4
-plotly version: 5.9.0
-scipy version: 1.9.1
-seaborn version: 0.11.2
-scikit-learn version: 1.0.2
+NumPy version: 1.24.3
+Pandas version: 1.5.3
+SK Learn: 1.2.2
+matplotlib version: 3.3.4
+scipy version 1.10.1
+missing no version 0.5.2
+geopandas version 0.13.0
+seaborn version 0.11.1
+xgboost version 1.7.5
+statsmodel version 0.13.5
 
 You can install these dependencies by running the following command:
 ```pip install matplotlib numpy pandas plotly scipy seaborn scikit-learn```
 
 
 ## Data
-For this project, we opted to utilize a global University ranking dataset sourced from The Center for World University Rankings (CWUR). The dataset spans the years 2012 to 2017 and encompasses 4,200 entries with 14 columns, encompassing information on world rankings, quality, publications, and scores of various institutions. 
 
-This dataset offers an opportunity for in-depth data analysis, enabling us to uncover valuable insights and visualize trends that can help inform universities efforts to improve educational and research standards.Initially, we utilized a pre-cleaned version of the dataset available on Kaggle, but upon realizing the need for an update, we conducted web scraping directly from the CWUR main website. This update was necessary due to changes in variables collected stemming from the organization's updated methodology.
+For this project, we opted to utilize data of care homes in United States of America. The is updated as at 2016 and contains 
 
 
-download data files here: https://github.com/Nosa-khare/python-assessment/tree/main/dataset
+By utilizing this dataset, we can gain valuable insights into the operations of each Home Health Care Agency. It allows us to make informed decisions regarding care needs and assess the quality measure ratings of different agencies.
+
+This information empowers individuals to make well-informed choices about their healthcare options. Whether it's dedicated nursing care services, speech pathology, or medical social services, this dataset offers a comprehensive overview of U.S.-based Home Health Care Agencies, providing users with all the necessary information for their specific needs.
+
+Download Link: https://www.kaggle.com/datasets/thedevastator/home-health-care-agency-ratings
+
 
 
 ## Data Integration
